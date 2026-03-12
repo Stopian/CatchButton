@@ -3,8 +3,12 @@
 ## 개요
 - 핵심기능 : 버튼 위로 커서가 올라갈 경우 버튼의 위치를 랜덤한 위치로 이동시킴.
 - 화면구성 : 버튼, 버튼의 현재 픽셀 위치, 버튼 클릭 성공시 "축하합니다" 메세지 띄움, 버튼이 도망갈 시 소리 재생, 버튼을 클릭 시 소리 재생.
-
-- ## 실행 화면
+## 목표
+ <1단계> - 기본 도망 기능
+ <2단계> - 시각적/청각적 피드백
+ <3단계> - 점수 표시와 점수별 난이도 조정
+ <4단계> - 게임 오버 및 리셋
+ ## 실행 화면
 - 1단계 코드의 실행 스크린샷
 <img width="1063" height="540" alt="catchme" src="https://github.com/user-attachments/assets/50510117-3e47-4a20-b736-ff5ca3a888f0" />
 <img width="1163" height="561" alt="catchme2" src="https://github.com/user-attachments/assets/55b6b3c3-a654-458b-a1c3-439e6b87f807" />
