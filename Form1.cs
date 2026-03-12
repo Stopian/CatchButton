@@ -3,6 +3,7 @@ namespace CatchButton
 {
     public partial class Form1 : Form
     {
+        int score = 0; //게임의 점수
         public Form1()
         {
             InitializeComponent();
@@ -30,6 +31,8 @@ namespace CatchButton
 
             this.Text = $"버튼위치: ({nextX}, {nextY})"; // 폼의 제목에 버튼의 위치 표시
 
+            this.Text = "점수 : " + score; // 폼의 제목에 게임 점수 표시
+
             /*SoundPlayer player = new SoundPlayer("escape.mp3"); // 버튼이 움직일 때 효과음
             player.Play();
             */
@@ -41,8 +44,14 @@ namespace CatchButton
             SoundPlayer player = new SoundPlayer("success.mp3");// 잡았을 때 효과음
             player.Play();*/
 
-         
+            score += 100;
+
+            this.Text = "점수 : " + score;
+
+            MessageBox.Show("축하합니다~!");
+
             MessageBox.Show("축하합니다~!");// 메시지 박스
+
         }
     }
 }
