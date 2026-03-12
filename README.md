@@ -22,12 +22,17 @@
 https://github.com/user-attachments/assets/752f0c1f-c63f-4240-881f-a750aa17d908 << 실행영상
 
 
-
 - 3단계 코드의 실행 스크린샷
+<img width="801" height="481" alt="image" src="https://github.com/user-attachments/assets/57537679-8e05-4afd-993b-96e25b807495" />
+<img width="797" height="479" alt="image" src="https://github.com/user-attachments/assets/8d45a2a0-7cf4-4a31-b54e-3eab5d62a83f" />
+https://github.com/user-attachments/assets/30d30b90-a954-4e08-866b-9eed0d58f817 << 실행영상
 
 - 4단계 코드의 실행 스크린샷
 
 ## 구현 시 어려웠던 점
 - 1단계 코드를 작성할 때 버튼이 화면 밖으로 벗어나는 문제가 있었고, 이를 버튼의 크기를 고려하는 방식을 떠올려 해결함.
-- 2단계 코드에서 효과음을 재생시키는 과정을 진행하던 중, 오류가 발생해 이를 Gemini 에게 질문하여 효과음으로 넣어둔 .wav 파일을
+ 
+- 2단계 코드에서 효과음을 재생시키는 과정을 진행하던 중, 오류가 발생해 이를 Gemini 에게 질문하여 효과음으로 넣어둔 .wav 파일을 
   리소스 도구가 단순한 byte 데이터로 분류해 재생할 수 없었다는 것을 알았고, 이를 SoundPlayer 가 읽을 수 있도록 연결해주는 코드를 작성해 해결함.
+  
+- 3단계 코드에서 버튼의 크기를 줄일 때 버튼의 크기는 10% 씩 줄어들었지만 폰트는 줄어들지 않아 크기가 맞지 않았음. 폰트 또한 같은 방법으로 크기를 줄이려했지만 데이터 타입 오류가 생겼고 이를 FontNewSize 라는 변수를 별도로 지정해 해결함.
