@@ -6,8 +6,11 @@
 
 - ## 실행 화면
 - 1단계 코드의 실행 스크린샷
+<img width="1063" height="540" alt="catchme" src="https://github.com/user-attachments/assets/50510117-3e47-4a20-b736-ff5ca3a888f0" />
+<img width="1163" height="561" alt="catchme2" src="https://github.com/user-attachments/assets/55b6b3c3-a654-458b-a1c3-439e6b87f807" />
 
 - 2단계 코드의 실행 스크린샷
+
 
 - 3단계 코드의 실행 스크린샷
 
