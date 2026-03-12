@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             catchMeButton = new Button();
+            GameOverButton = new Button();
+            lastScore = new Label();
             SuspendLayout();
             // 
             // catchMeButton
@@ -44,19 +46,48 @@
             catchMeButton.MouseDown += catchMeButton_MouseDown;
             catchMeButton.MouseEnter += catchMeButton_MouseEnter;
             // 
+            // GameOverButton
+            // 
+            GameOverButton.Enabled = false;
+            GameOverButton.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            GameOverButton.Location = new Point(322, 322);
+            GameOverButton.Name = "GameOverButton";
+            GameOverButton.Size = new Size(151, 55);
+            GameOverButton.TabIndex = 1;
+            GameOverButton.Text = "다시 시작";
+            GameOverButton.UseVisualStyleBackColor = true;
+            GameOverButton.Visible = false;
+            GameOverButton.MouseDown += GameOverButton_MouseDown;
+            // 
+            // lastScore
+            // 
+            lastScore.AutoSize = true;
+            lastScore.Font = new Font("맑은 고딕", 24F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            lastScore.Location = new Point(285, 83);
+            lastScore.Name = "lastScore";
+            lastScore.Size = new Size(282, 45);
+            lastScore.TabIndex = 2;
+            lastScore.Text = "최종 점수: {score}";
+            lastScore.Visible = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lastScore);
+            Controls.Add(GameOverButton);
             Controls.Add(catchMeButton);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button catchMeButton;
+        private Button GameOverButton;
+        private Label lastScore;
     }
 }
