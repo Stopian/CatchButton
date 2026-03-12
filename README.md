@@ -25,6 +25,7 @@ https://github.com/user-attachments/assets/752f0c1f-c63f-4240-881f-a750aa17d908 
 - 3단계 코드의 실행 스크린샷
 <img width="801" height="481" alt="image" src="https://github.com/user-attachments/assets/57537679-8e05-4afd-993b-96e25b807495" />
 <img width="797" height="479" alt="image" src="https://github.com/user-attachments/assets/8d45a2a0-7cf4-4a31-b54e-3eab5d62a83f" />
+
 https://github.com/user-attachments/assets/30d30b90-a954-4e08-866b-9eed0d58f817 << 실행영상
 
 - 4단계 코드의 실행 스크린샷
