@@ -22,8 +22,8 @@ namespace CatchButton
             int maxX = this.ClientSize.Width; //가용한 최대 X좌표 (버튼 크기 고려 X)
             int maxY = this.ClientSize.Height;//가용한 최대 Y좌표 (버튼 크기 고려 X)
 
-            int nextX = rd.Next(0, maxX); // 0부터 maxX-1까지의 난수 생성
-            int nextY = rd.Next(0, maxY); // 0부터 maxY-1까지의 난수 생성
+            int nextX = rd.Next(0, maxX - 267); // 0부터 maxX-1까지의 난수 생성 (버튼의 너비 267 고려)
+            int nextY = rd.Next(0, maxY - 91); // 0부터 maxY-1까지의 난수 생성 (버튼의 높이 91 고려)
 
             catchMeButton.Location = new Point(nextX, nextY); //버튼 위치 변경
 
