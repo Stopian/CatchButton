@@ -11,7 +11,7 @@
 
 - 2단계 코드의 실행 스크린샷
 <img width="968" height="585" alt="catchme3" src="https://github.com/user-attachments/assets/2a1b5634-e5aa-407c-8141-792a68debbf7" />
-https://github.com/user-attachments/assets/752f0c1f-c63f-4240-881f-a750aa17d908
+https://github.com/user-attachments/assets/752f0c1f-c63f-4240-881f-a750aa17d908 << 실행영상
 
 
 
