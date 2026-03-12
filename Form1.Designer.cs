@@ -41,6 +41,7 @@
             catchMeButton.TabIndex = 0;
             catchMeButton.Text = "나를 잡아봐";
             catchMeButton.UseVisualStyleBackColor = false;
+            catchMeButton.MouseDown += catchMeButton_MouseDown;
             catchMeButton.MouseEnter += catchMeButton_MouseEnter;
             // 
             // Form1

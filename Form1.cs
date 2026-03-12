@@ -1,3 +1,4 @@
+using System.Media;
 namespace CatchButton
 {
     public partial class Form1 : Form
@@ -16,7 +17,7 @@ namespace CatchButton
             catchMeButton.Location = new Point(x_position, y_position);
             */
 
-           
+
             Random rd = new Random(); //  난수생성기준비
 
             int maxX = this.ClientSize.Width; //가용한 최대 X좌표 (버튼 크기 고려 X)
@@ -29,6 +30,19 @@ namespace CatchButton
 
             this.Text = $"버튼위치: ({nextX}, {nextY})"; // 폼의 제목에 버튼의 위치 표시
 
+            /*SoundPlayer player = new SoundPlayer("escape.mp3"); // 버튼이 움직일 때 효과음
+            player.Play();
+            */
+        }
+
+        private void catchMeButton_MouseDown(object sender, MouseEventArgs e)
+        {
+            /*
+            SoundPlayer player = new SoundPlayer("success.mp3");// 잡았을 때 효과음
+            player.Play();*/
+
+         
+            MessageBox.Show("축하합니다~!");// 메시지 박스
         }
     }
 }
